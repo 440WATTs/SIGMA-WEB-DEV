@@ -1,4 +1,25 @@
 td{border: 2px solid black;}
 p{background-color: aquamarine;}
-a{background-color: rgb(218, 191, 243);}
-div{background-color: chartreuse;}
+
+
+/* Element Selector  */
+div{background-color: rgb(0, 225, 255);}
+/* Class Selector  */
+.red{color: rgb(255, 0, 0);}
+.red{background-color: rgb(255, 0, 128);}
+.bg-yellow{background-color: rgb(229, 255, 0);}
+/* Id Selector */
+#wow{background-color: rgba(0, 70, 128, 0.486);}
+/* Child Selectors  */
+div > p {color: blue; background-color: brown;}
+/* Descendant Selector  */
+div p {color: blue; background-color: brown;}
+/* Universal Selector */
+* {margin:0; padding: 0;}
+/* Pseudo Selector  */
+a:visited{color: yellow}
+a:link {color: green;}
+a:active{background-color: red;}
+a:hover{background-color: yellow;}
+a{background-color: rgb(158, 255, 31);}
+p:first-child{background-color: aqua;}
