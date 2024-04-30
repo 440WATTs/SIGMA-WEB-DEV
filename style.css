@@ -12,27 +12,55 @@ p {
     text-transform: uppercase;
     /* text-decoration: underline ; */
     text-decoration-thickness: 7px;
+
+    overflow: auto;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+    /* overflow: auto hidden; */
+    /* white-space: nowrap; */
     text-overflow: ellipsis;
-    overflow: hidden;
 }
+
 
 h1 {
     text-align: center;
+
 }
 
+h3 {
+    border: 2px solid blue;
+    display: inline-block;
+    width: 344px;
+    padding: 45px;
+    margin: 34px;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* text-shadow: 10px 5px 3px darkorange yellow */
+    box-shadow: 5px 15px 5px #70a711;
+}
 
 /* Element Selector  */
 div {
     background-color: rgb(0, 225, 255);
 }
 
+nav {
+    padding: 32px;
+    ;
+    border: 2px solid black;
+    /* list-style: devanagari; */
+    list-style-type: "🔥";
+    background-color: yellow;
+    /* list-style-position: inside; */
+    /* list-style: disc inside url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
+    /* list-style-image: url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
+}
+
 /* Class Selector  */
 .red {
     color: rgb(255, 0, 0);
-}
-
-.red {
     background-color: rgb(255, 0, 128);
+
 }
 
 .bg-yellow {
@@ -92,10 +120,66 @@ p:first-child {
 
 /* https://codepen.io/web-dot-dev/pen/ZELGraM */
 h1 {
-    color:darkred;
+    color: darkred;
     /* color: #0BEE0B; */
     /* color: rgb(76, 125, 59); */
     /* color: rgba(255, 22, 5, 0.175) */
     /* color: hsl(130, 61%, 44%); */
     /* background-color: rgb(76, 125, 59); */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.box {
+    height: 40px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid black;
+}
+
+.box1 {
+    background-color: aqua;
+    position: sticky;
+    top:0px;
+    height: 111px;
+    width:100%;
+    margin: 0;
+    padding: 0; 
+    /* position: absolute; */
+    top: 0px;
+    left: 3px;
+}
+
+.box2 {
+    background-color: azure;
+    /* position: relative;
+    top: 34px;
+    left: 56px; */
+}
+
+.box3 {
+    background-color: antiquewhite;
+    /* position: fixed;
+    bottom: 0px;
+    left:8vw;
+    height: 111px; */
+}
+
+.box4 {
+    background-color: purple;
+}
+
+.parent {
+    padding: 43px;
+    margin: 34px;
+    border: 3px solid purple;
+    /* position: relative; */
+
+
+    /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+    /* transform: translate(0); */
+    /* filter: invert(0); */
+    /* perspective: 0em; */
 }
