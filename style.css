@@ -1,233 +1,226 @@
 td {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 p {
-    background-color: rgba(255, 133, 239, 0.753);
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: small;
-    line-height: 1.3;
-    text-transform: uppercase;
-    /* text-decoration: underline ; */
-    text-decoration-thickness: 7px;
+  background-color: rgba(255, 133, 239, 0.753);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: small;
+  line-height: 1.3;
+  text-transform: uppercase;
+  /* text-decoration: underline ; */
+  text-decoration-thickness: 7px;
 
-    overflow: auto;
-    overflow-x: hidden;
-    /* overflow-y: scroll; */
-    /* overflow: auto hidden; */
-    /* white-space: nowrap; */
-    text-overflow: ellipsis;
+  overflow: auto;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+  /* overflow: auto hidden; */
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
 }
 
-
 h1 {
-    text-align: center;
-
+  text-align: center;
 }
 
 h3 {
-    border: 2px solid blue;
-    display: inline-block;
-    width: 344px;
-    padding: 45px;
-    margin: 34px;
-    /* display: none; */
-    /* visibility: hidden; */
-    /* text-shadow: 10px 5px 3px darkorange yellow */
-    box-shadow: 5px 15px 5px #70a711;
+  border: 2px solid blue;
+  display: inline-block;
+  width: 344px;
+  padding: 45px;
+  margin: 34px;
+  /* display: none; */
+  /* visibility: hidden; */
+  /* text-shadow: 10px 5px 3px darkorange yellow */
+  box-shadow: 5px 15px 5px #70a711;
 }
 
 /* Element Selector  */
 div {
-    background-color: rgb(140, 242, 255);
+  background-color: rgb(140, 242, 255);
 }
 
 nav {
-    padding: 32px;
-    ;
-    border: 2px solid black;
-    /* list-style: devanagari; */
-    list-style-type: "🔥";
-    background-color: yellow;
-    /* list-style-position: inside; */
-    /* list-style: disc inside url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
-    /* list-style-image: url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
+  padding: 32px;
+  border: 2px solid black;
+  /* list-style: devanagari; */
+  list-style-type: "🔥";
+  background-color: yellow;
+  /* list-style-position: inside; */
+  /* list-style: disc inside url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
+  /* list-style-image: url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
 }
 
 /* Class Selector  */
 .red {
-    color: rgb(255, 0, 0);
-    background-color: rgb(255, 0, 128);
-
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 128);
 }
 
 .bg-yellow {
-    background-color: rgb(229, 255, 0);
+  background-color: rgb(229, 255, 0);
 }
 
 /* Id Selector */
 #wow {
-    background-color: rgba(0, 70, 128, 0.486);
+  background-color: rgba(0, 70, 128, 0.486);
 }
 
 /* Child Selectors  */
-div>p {
-    /* color: blue; */
-    background-color: brown;
+div > p {
+  /* color: blue; */
+  background-color: brown;
 }
 
 /* Descendant Selector  */
 div p {
-    color: rgb(0, 0, 56);
-    background-color: rgb(255, 182, 47);
+  color: rgb(0, 0, 56);
+  background-color: rgb(255, 182, 47);
 }
 
 /* Universal Selector */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0px solid beige;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0px solid beige;
+  box-sizing: border-box;
 }
 
 /* Pseudo Selector  */
 a {
-    background-color: rgb(158, 255, 31);
+  background-color: rgb(158, 255, 31);
 }
 
 a:visited {
-    color: yellow
+  color: yellow;
 }
 
 a:link {
-    color: green;
+  color: green;
 }
 
 a:active {
-    background-color: red;
+  background-color: red;
 }
 
 a:hover {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 p:first-child {
-    background-color: aqua;
+  background-color: aqua;
 }
-
 
 /* https://codepen.io/web-dot-dev/pen/ZELGraM */
 h1 {
-    color: darkred;
-    /* color: #0BEE0B; */
-    /* color: rgb(76, 125, 59); */
-    /* color: rgba(255, 22, 5, 0.175) */
-    /* color: hsl(130, 61%, 44%); */
-    /* background-color: rgb(76, 125, 59); */
+  color: darkred;
+  /* color: #0BEE0B; */
+  /* color: rgb(76, 125, 59); */
+  /* color: rgba(255, 22, 5, 0.175) */
+  /* color: hsl(130, 61%, 44%); */
+  /* background-color: rgb(76, 125, 59); */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .box {
-    height: 40px;
-    width: 80vw;
-    padding: 3px;
-    margin: 3px;
-    border: 2px solid black;
+  height: 40px;
+  width: 80vw;
+  padding: 3px;
+  margin: 3px;
+  border: 2px solid black;
 }
 
 .box1 {
-    background-color: aqua;
-    position: sticky;
-    top: 0px;
-    height: 111px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    /* position: absolute; */
-    top: 0px;
-    left: 3px;
+  background-color: aqua;
+  position: sticky;
+  top: 0px;
+  height: 111px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* position: absolute; */
+  top: 0px;
+  left: 3px;
 }
 
 .box2 {
-    background-color: azure;
-    /* position: relative;
+  background-color: azure;
+  /* position: relative;
     top: 34px;
     left: 56px; */
 }
 
 .box3 {
-    background-color: antiquewhite;
-    /* position: fixed;
+  background-color: antiquewhite;
+  /* position: fixed;
     bottom: 0px;
     left:8vw;
     height: 111px; */
 }
 
 .box4 {
-    background-color: purple;
+  background-color: purple;
 }
 
 .parent {
-    padding: 43px;
-    margin: 34px;
-    border: 3px solid purple;
-    /* position: relative; */
+  padding: 43px;
+  margin: 34px;
+  border: 3px solid purple;
+  /* position: relative; */
 
-
-    /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
-    /* transform: translate(0); */
-    /* filter: invert(0); */
-    /* perspective: 0em; */
+  /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+  /* transform: translate(0); */
+  /* filter: invert(0); */
+  /* perspective: 0em; */
 }
 
 :root {
-    --color: rgb(255, 219, 254);
-    --seccolor: rgb(232, 135, 253);
-    --defpad: 23px;
-    --defop: 0.4;
+  --color: rgb(255, 219, 254);
+  --seccolor: rgb(232, 135, 253);
+  --defpad: 23px;
+  --defop: 0.4;
 }
 
 .nav {
-    background-color: var(--color);
+  background-color: var(--color);
 
-    ul {
-        display: flex;
-    }
+  ul {
+    display: flex;
+  }
 
-    ul li {
-        opacity: var(--defop);
-        list-style: none;
-        padding: var(--defpad);
-        border: 2px solid var(--seccolor);
-    }
+  ul li {
+    opacity: var(--defop);
+    list-style: none;
+    padding: var(--defpad);
+    border: 2px solid var(--seccolor);
+  }
 
-    ul li:first-child {
-        --color: rgb(243, 87, 8);
-        background-color: var(--color, blue);
-    }
+  ul li:first-child {
+    --color: rgb(243, 87, 8);
+    background-color: var(--color, blue);
+  }
 }
 
 .container {
-    background-color: var(--seccolor);
+  background-color: var(--seccolor);
 }
 
 /* @media screen and (orientation: potrait)  */
 @media only screen and (max-width: 455px) {
-    .box {
-        position: relative;
-        padding: 4px;
-        margin: 4px;
-        border: 4px solid;
-        width: 100%;
-        height: 30px;
-        width: 30px;
-    }
+  .box {
+    position: relative;
+    padding: 4px;
+    margin: 4px;
+    border: 4px solid;
+    width: 100%;
+    height: 30px;
+    width: 30px;
+  }
 
-    .parent {
-        display: flex;
-    }
+  .parent {
+    display: flex;
+  }
 }
