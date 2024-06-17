@@ -94,7 +94,7 @@ a {
 }
 
 a:visited {
-  color: yellow;
+  color: rgb(25, 0, 255);
 }
 
 a:link {
